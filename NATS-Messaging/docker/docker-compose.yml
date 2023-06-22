@@ -1,0 +1,21 @@
+version: "3"
+services:
+  nats1:
+    image: nats:alpine
+    ports:
+      - "4222:4222"
+    command: "-cluster nats://0.0.0.0:4248"
+  nats2:
+    image: nats:alpine
+    ports:
+      - "5222:4222"
+    depends_on:
+      - nats1
+    command: "-cluster nats://0.0.0.0:4248 -routes nats://nats1:4248"
+  nats3:
+    image: nats:alpine
+    ports:
+      - "6222:4222"
+    depends_on:
+      - nats1
+    command: "-cluster nats://0.0.0.0:4248 -routes nats://nats1:4248"

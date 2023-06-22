@@ -1,0 +1,17 @@
+
+
+{
+	"auths": {
+		
+		
+		"inditex-docker-snapshot.jfrog.io": {
+			"auth": "cGF1bGFhY2FyZEBleHQuaW5kaXRleC5jb206QUtDcDhqUXdjaTNSczdtOFRFWVpWOFNnSGZoNGFKVTdzQnJGZmtZSFBicWVEdEphQU1LalJOVlJTVER5TVJaNXBXMldWQmtIaQ=="
+		}
+		
+		,
+		"inditex-docker.jfrog.io": {
+			"auth": "cGF1bGFhY2FyZEBleHQuaW5kaXRleC5jb206QUtDcDhqUXdjaTNSczdtOFRFWVpWOFNnSGZoNGFKVTdzQnJGZmtZSFBicWVEdEphQU1LalJOVlJTVER5TVJaNXBXMldWQmtIaQ=="
+		}
+		
+	}
+}
